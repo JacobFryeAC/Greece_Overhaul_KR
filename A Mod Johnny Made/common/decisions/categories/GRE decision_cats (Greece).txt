@@ -1,0 +1,37 @@
+GRE_regaining_greece = {
+	icon = GFX_decision_category_patriotic
+	picture = GFX_decision_category_GRE_megali_idea
+
+	allowed = {
+		original_tag = GRE
+	}
+}
+
+GRE_join_faction_decisions = {
+	allowed = {
+		original_tag = GRE
+	}
+	visible = {
+		is_in_faction = no
+		is_subject = no
+	}
+}
+
+GRE_economic_development_decisions = {
+	icon = generic_economy
+	allowed = {
+		original_tag = GRE
+	}
+	on_map_area = {
+		name = GRE_economic_development_tooltip
+		zoom = 100
+
+		target_array = core_states
+		target_trigger = {
+			FROM = {
+				is_core_of = ROOT
+				is_owned_by = ROOT
+			}
+		}
+	}
+}

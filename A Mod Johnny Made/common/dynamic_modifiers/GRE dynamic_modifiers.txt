@@ -1,0 +1,8 @@
+GRE_state_resettlements_plan = {
+	icon = "GFX_idea_GRE_army"
+	enable = { always = yes }
+	enemy_attrition = 1
+	mobilization_speed = 0.5
+	local_manpower = 0.75
+	recruitable_population_factor = 0.5
+}
