@@ -1,7 +1,7 @@
 ###########################
 # Greece Decisions
 ###########################
-# By Rylock
+# By Rylock Before a takeover form BIGJOHN
 ###########################
 
 GRE_join_faction_decisions = {
